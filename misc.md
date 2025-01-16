@@ -11,20 +11,10 @@ weight: 2
 
 [*The 7 Most Remote Chicago Parks*](articles/17/chicago-parks)<br/>This article about Chicago greenspace was reported on by [CBS](https://chicago.cbslocal.com/2017/11/06/park-566-master-plan/).
 
-## Software
+## Tools 
 [*Is the Weather Weird?*](https://www.istheweatherweird.com)<br/>Jonah-Bloch Johnson and I made a website to help answer that question. Bea Malsky made a [twitter bot](https://twitter.com/itww_chicago).
 
-[*Higher Ground*](https://github.com/potash/higher-ground)<br/>This work-in-progress uses OpenStreetMap data to analyze and visualize urban greenspace. I used it to write the above [article](articles/17/chicago-parks) about Chicago greenspace.
-
-[*drain*](https://github.com/potash/drain)<br/>This is a simple and powerful Python framework for reproducible and parallel data science workflows.
-
 [*collate*](https://github.com/dssg/collate)<br/>This is a Python library for generating spatiotemporal aggregation SQL queries, primarily for building features for machine learning and other models.
-
-[*acs2pgsql*](https://github.com/dssg/acs2pgsql)<br/>This is a [drake](https://github.com/factual/drake) workflow for bulk importing the American Community Survey (ACS) data and TIGER shapefiles from the U.S. Census FTP into a PostgreSQL database.
-
-[*dmr2pgsql*](https://github.com/dssg/il-dmr)<br/>This script downloads and imports discharge monitoring reports from the Illinois EPA website for the University of Chicago's [Environmental Law Clinic](http://www.law.uchicago.edu/clinics/environmental).
-
-[*Visible Hand*](https://github.com/potash/visiblehand-core)<br/>This software for calculating the carbon footprint of flights and utilities by parsing e-mail receipts and integrating various aircraft and energy emissions databases.
 
 [*Cook Scheduler*](https://github.com/potash/cook_scheduler)<br/>This python script uses linear programming to optimize the selection of a cook schedule given each cook's preferences.
 

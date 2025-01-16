@@ -43,19 +43,19 @@ In collaboration with the Chicago Department of Public Health, I led the develop
 </p>
 
 <p class="paper" markdown="1">
+    *[Randomization Bias in Field Trials to Evaluate Targeting Methods](https://www.sciencedirect.com/science/article/pii/S0165176518301034)*<br/>
+    *Economics Letters* 167, 131-135 (2018)<br/>
+    **E Potash**
+</p>
+
+
+<p class="paper" markdown="1">
     *[Validation of a Machine Learning Model to Predict Childhood Lead Poisoning](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770650)*<br/>
     *JAMA Network Open* 3.9 (2020)<br/>
     **E Potash**, R Ghani, J Walsh, E Jorgensen, C Lohff, N Prachand, R Mansour<br/>
 </p>
 
 As a member of the Proactively Addressing Substandard Housing (PASH) working group, I helped draft a city ordinance proposing the [Chicago Healthy Homes Inspection Program (CHHIP)](https://www.tenants-rights.org/programs/advocacy/chhip/), a universal rental housing inspection program to protect tenants from health hazards including lead.
-
-## Field Trial Design
-<p class="paper" markdown="1">
-    *[Randomization Bias in Field Trials to Evaluate Targeting Methods](https://www.sciencedirect.com/science/article/pii/S0165176518301034)*<br/>
-    *Economics Letters* 167, 131-135 (2018)<br/>
-    **E Potash**
-</p>
 
 ## Algorithmic Fairness
 <p class="paper" markdown="1">
