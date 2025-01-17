@@ -5,7 +5,7 @@ weight: 2
 ---
 ## Environmental Monitoring
 <p class="paper" markdown="1">
-    *[Measure-and-remeasure as an economically feasible approach to soil carbon crediting at scale]()*<br/>
+    *[Measure-and-remeasure as an economically feasible approach to crediting soil organic carbon at scale]({{site.baseurl}}/assets/pdf/feasibility.pdf)*<br/>
     *Environmental Research Letters* 20 (2025) 024025<br/>
     **E Potash**, MA Bradford, EE Oldfield, K Guan
 </p>
