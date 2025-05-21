@@ -5,6 +5,12 @@ weight: 2
 ---
 ## Environmental Monitoring
 <p class="paper" markdown="1">
+    *[Think outside the plots: Perimeter measurements and spatial modeling mitigate confounding in a 145-year experiment]({{site.baseurl}}/assets/pdf/morrow.pdf)*<br/>
+    *Agricultural & Environmental Letters* (2025) <br/>
+    **E Potash**, Y Nakayama, M Douglass, G Gonzalez, A Margenot
+</p>
+
+<p class="paper" markdown="1">
     *[Measure-and-remeasure as an economically feasible approach to crediting soil organic carbon at scale]({{site.baseurl}}/assets/pdf/feasibility.pdf)*<br/>
     *Environmental Research Letters* 20 (2025) 024025<br/>
     **E Potash**, MA Bradford, EE Oldfield, K Guan
