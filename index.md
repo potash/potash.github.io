@@ -9,4 +9,5 @@ nav_exclude: true
 <img class="headshot" src="assets/img/headshot.jpg">
 I'm a research scientist at the University of Illinois Urbana-Champaign's [Institute for Sustainability, Energy, and Environment](https://sustainability.illinois.edu/).
 
-I'm interested in environmental monitoring, public health, and public policy. I currently [research]({{site.baseurl}}/research.html) agriculture and soil carbon. I've previously studied water quality and childhood lead poisoning. My methodological interests include Bayesian multilevel and spatiotemporal modeling, causal inference, and experimental design.
+My [research]({{site.baseurl}}/research.html) is in environmental monitoring, public health, and public policy. 
+My current focus is on agriculture and soil carbon. I previously worked on water quality and childhood lead poisoning. My methodological interests include Bayesian multilevel and spatiotemporal modeling, causal inference, and experimental design.
