@@ -1,31 +1,144 @@
----
-layout: null
-nav_exclude: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Eric Potash</title>
+    <description>Personal webpage</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 May 2025 13:25:26 -0500</pubDate>
+    <lastBuildDate>Sat, 24 May 2025 13:25:26 -0500</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>The 7 Most Remote Chicago Parks</title>
+        <description>&lt;p&gt;Stretching over 18 miles from Edgewater to South Shore, Chicago’s Lakefront Trail might be the city’s most iconic park. But the term “trail” is absurd. For most of its length, this paved path runs adjacent to a six-lane highway!
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;That observation led me to think about the points in Chicago that are farthest from a road. I wrote a &lt;a href=&quot;https://github.com/potash/higher-ground&quot;&gt;computer program&lt;/a&gt; to calculate the (Euclidean) distance to the nearest road at every point in Chicago. Then I defined the “remoteness” of a park to be the farthest I could from a road within that park.&lt;/p&gt;
+
+&lt;p&gt;How remote is the Lakefront Trail? Just 608 feet, when the path goes east around Museum Campus:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;figure id=&quot;lakefront&quot; class=&quot;higherground fullwidth&quot;&gt;
+    &lt;div id=&quot;lakefront-panorama&quot; class=&quot;higherground_panorama&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;lakefront-map&quot; class=&quot;higherground_map&quot;&gt;&lt;/div&gt;
+    &lt;figcaption&gt;Above, an interactive panorama that I shot at the point farthest from a road on the Lakefront Trail. Below, a map with a marker at the point and a circle with radius equal to the distance to the nearest road, so that the circle contains no roads.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;script&gt;higher_ground([&quot;lakefront&quot;, &quot;-87.61536&quot;, &quot;41.86810&quot;, &quot;https://i.imgur.com/9tiJATm.jpg&quot;, &quot;608&quot;, &quot;0&quot;, &quot;Above, an interactive panorama that I shot at the point farthest from a road on the Lakefront Trail. Below, a map with a marker at the point and a circle with radius equal to the distance to the nearest road, so that the circle contains no roads.&quot;])&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next I visited the most remote parks. I was surprised in a number of ways. First, by just how far from a road I could get within the city. Second, by the beauty that this simplistic measure of remoteness led me to. Third, by the fact that 5 of the 7 most remote parks are on the South Side. I don’t think that’s a coincidence. Nor do I think it can be principally explained by a generosity of City Council to a side of town it otherwise neglects. The abundance of park land on the South Side is part of a larger story in land use history across the country: the conversion of former industrial and military sites into parks.&lt;/p&gt;
+
+&lt;p&gt;On to the list.&lt;/p&gt;
+
+&lt;h2 id=&quot;7-powderhorn-marsh-and-prairie-1487-ft&quot;&gt;7. Powderhorn Marsh and Prairie: 1,487 ft&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Tucked between rail yards and neighborhoods at the far southeast side of Chicago, Powderhorn Lake Forest Preserve’s 192 acres of woodland, prairie and wetland reflect the ecological richness that survives in similar pockets across the industrialized Calumet region. The lake and surrounding lands are popular among anglers, nature lovers and birders. (&lt;a href=&quot;http://fpdcc.com/powderhorn-lake/&quot;&gt;FPDCC&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;figure id=&quot;powderhorn&quot; class=&quot;higherground fullwidth&quot;&gt;
+    &lt;div id=&quot;powderhorn-panorama&quot; class=&quot;higherground_panorama&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;powderhorn-map&quot; class=&quot;higherground_map&quot;&gt;&lt;/div&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;script&gt;higher_ground([&quot;powderhorn&quot;, &quot;-87.53003&quot;, &quot;41.64503&quot;, &quot;https://i.imgur.com/FFz1iDz.jpg&quot;, &quot;1487&quot;, &quot;32&quot;])&lt;/script&gt;
+
+&lt;h2 id=&quot;6-lincoln-park-1595-ft&quot;&gt;6. Lincoln Park: 1,595 ft&lt;/h2&gt;
+&lt;p&gt;Lincoln Park is Chicago’s largest park at 1,208 acres. There’s a lot to see, but roads criss-cross through most of it. The farthest point from a road in Lincoln Park is the Montrose Point Bird Sanctuary.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;During the Cold War, Montrose point, which juts out into Lake Michigan, was used by the United States Army as a Nike missile base. The Army camouflaged their missile launchers and barracks behind honeysuckle hedges. (&lt;a href=&quot;https://en.wikipedia.org/wiki/Lincoln_Park&quot;&gt;Wikipedia&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;figure id=&quot;montrose&quot; class=&quot;higherground fullwidth&quot;&gt;
+    &lt;div id=&quot;montrose-panorama&quot; class=&quot;higherground_panorama&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;montrose-map&quot; class=&quot;higherground_map&quot;&gt;&lt;/div&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;script&gt;higher_ground([&quot;montrose&quot;, &quot;-87.63199&quot;, &quot;41.96656&quot;, &quot;https://i.imgur.com/Wo9WkYc.jpg&quot;, &quot;1595&quot;, &quot;-72&quot;])&lt;/script&gt;
+
+&lt;h2 id=&quot;5-beaubian-woods-1633-ft&quot;&gt;5. Beaubian Woods: 1,633 ft&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Before European settlement, Beaubien Woods was a wet prairie and open savanna community. Early agriculture and grazing altered the soil and removed native vegetation. Railroad and expressway construction further damaged soils and cleared areas for use in construction staging. (&lt;a href=&quot;http://fpdcc.com/beaubien-woods/&quot;&gt;FPDCC&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;figure id=&quot;beaubian&quot; class=&quot;higherground fullwidth&quot;&gt;
+    &lt;div id=&quot;beaubian-panorama&quot; class=&quot;higherground_panorama&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;beaubian-map&quot; class=&quot;higherground_map&quot;&gt;&lt;/div&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;script&gt;higher_ground([&quot;beaubian&quot;, &quot;-87.58553&quot;, &quot;41.64588&quot;, &quot;https://i.imgur.com/BbhuS7w.jpg&quot;, &quot;1633&quot;, &quot;131&quot;])&lt;/script&gt;
+
+&lt;h2 id=&quot;4-catherine-chevalier-woods-1650-ft&quot;&gt;4. Catherine Chevalier Woods: 1,650 ft&lt;/h2&gt;
+&lt;p&gt;Chevalier Woods is the most accessible park on this list: the entrance is less than a mile from the Cumberland stop on the Blue Line; the Des Plaines River Trail makes it easy to get to by bike; and if you’re visiting from out of town, it’s just a few miles from O’Hare airport! That last fact makes this park better for watching planes than birds. And as you can see from the photo there’s almost no understory. You can thank the &lt;a href=&quot;https://www.cityofchicago.org/content/dam/city/depts/zlup/Sustainable_Development/Publications/Chicago_Nature_and_Wildlife_Plan/Catherine_Chevalier_Woods_Forest_Preserve.pdf&quot;&gt;deer&lt;/a&gt; for that.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;figure id=&quot;chevalier&quot; class=&quot;higherground fullwidth&quot;&gt;
+    &lt;div id=&quot;chevalier-panorama&quot; class=&quot;higherground_panorama&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;chevalier-map&quot; class=&quot;higherground_map&quot;&gt;&lt;/div&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;script&gt;higher_ground([&quot;chevalier&quot;, &quot;-87.85596&quot;, &quot;41.97348&quot;, &quot;https://i.imgur.com/gWw3QC8.jpg&quot;, &quot;1650&quot;, &quot;78&quot;])&lt;/script&gt;
+
+&lt;h2 id=&quot;3-william-w-powers-state-recreation-area-1814-ft&quot;&gt;3. William W. Powers State Recreation Area: 1,814 ft&lt;/h2&gt;
+&lt;p&gt;Powers Recreation Area is another former Nike missile site. There’s not much to see here (apparently the main attraction is fishing) but you can get pretty far from a road by bushwhacking out on this man-made peninsula.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;figure id=&quot;powers&quot; class=&quot;higherground fullwidth&quot;&gt;
+    &lt;div id=&quot;powers-panorama&quot; class=&quot;higherground_panorama&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;powers-map&quot; class=&quot;higherground_map&quot;&gt;&lt;/div&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;script&gt;higher_ground([&quot;powers&quot;, &quot;-87.53181&quot;, &quot;41.66287&quot;, &quot;https://i.imgur.com/r3e9kBC.jpg&quot;, &quot;1814&quot;, &quot;-5&quot;])&lt;/script&gt;
+
+&lt;h2 id=&quot;2-big-marsh-2324-ft&quot;&gt;2. Big Marsh: 2,324 ft&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Once the site of a waste and slag dumping ground from surrounding industrial operations since the late 1800s, the City of Chicago and the Chicago Park District teamed up in early 2000s to restore this area to a healthy habitat and eco-recreation park.  The Chicago Park District acquired the site in 2011… (&lt;a href=&quot;http://www.chicagoparkdistrict.com/parks/big-marsh-park-no564/&quot;&gt;Chicago Park District&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;figure id=&quot;bigmarsh&quot; class=&quot;higherground fullwidth&quot;&gt;
+    &lt;div id=&quot;bigmarsh-panorama&quot; class=&quot;higherground_panorama&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;bigmarsh-map&quot; class=&quot;higherground_map&quot;&gt;&lt;/div&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;script&gt;higher_ground([&quot;bigmarsh&quot;, &quot;-87.56799&quot;, &quot;41.69063&quot;, &quot;https://i.imgur.com/pskOvVm.jpg&quot;, &quot;2324&quot;, &quot;10&quot;])&lt;/script&gt;
+
+&lt;h2 id=&quot;1-park-no-566-2614-ft&quot;&gt;1. Park No. 566: 2,614 ft&lt;/h2&gt;
+&lt;p&gt;The farthest point from a road in Chicago’s parks lies on the former site of U.S. Steel South Works. The steel mill was active from 1901 until its closure for economic reasons in 1992. The buildings were demolished in 1997. A narrow stretch of coast was acquired by the Park District for Park No. 566. The rest of the land was supposed to be the site of a mixed development of residential, retail, and wind power. That &lt;a href=&quot;https://chicago.curbed.com/2016/3/1/11140996/chicago-lakeside-development-project-abandoned&quot;&gt;folded once&lt;/a&gt; but has since been &lt;a href=&quot;https://chicago.curbed.com/2017/1/31/14445698/chicago-south-works-us-steel-new-development-plan&quot;&gt;resurrected&lt;/a&gt;. Should the plans materialize, expect the construction of new roads to bump this park off the list.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;figure id=&quot;park566&quot; class=&quot;higherground fullwidth&quot;&gt;
+    &lt;div id=&quot;park566-panorama&quot; class=&quot;higherground_panorama&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;park566-map&quot; class=&quot;higherground_map&quot;&gt;&lt;/div&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;script&gt;higher_ground([&quot;park566&quot;, &quot;-87.53085&quot;, &quot;41.74773&quot;, &quot;https://i.imgur.com/mCg3C5H.jpg&quot;, &quot;2614&quot;, &quot;-175&quot;])&lt;/script&gt;
+
+&lt;p&gt;And here’s a bonus:&lt;/p&gt;
+
+&lt;h2 id=&quot;calumet-breakwater-6066-ft&quot;&gt;Calumet Breakwater: 6,066 ft!&lt;/h2&gt;
+&lt;p&gt;It’s not a park, but I couldn’t resist checking out this concrete barrier that protects Calumet Harbor. It extends more than a mile into Lake Michigan. The lighthouse at the end is technically in Indiana waters!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;figure id=&quot;calumet&quot; class=&quot;higherground fullwidth&quot;&gt;
+    &lt;div id=&quot;calumet-panorama&quot; class=&quot;higherground_panorama&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;calumet-map&quot; class=&quot;higherground_map&quot;&gt;&lt;/div&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;script&gt;higher_ground([&quot;calumet&quot;, &quot;-87.50793&quot;, &quot;41.73683&quot;, &quot;https://i.imgur.com/SxfN0JY.jpg&quot;, &quot;6066&quot;, &quot;143&quot;])&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 05 Nov 2017 00:00:00 -0500</pubDate>
+        <link>/articles/17/chicago-parks</link>
+        <guid isPermaLink="true">/articles/17/chicago-parks</guid>
+        
+        
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
