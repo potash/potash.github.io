@@ -5,6 +5,12 @@ weight: 2
 ---
 ## Environmental Monitoring
 <p class="paper" markdown="1">
+    [Empirical evaluation and recommendations for equivalent soil mass adjustment of soil organic carbon stocks]({{site.baseurl}}/assets/pdf/esm.pdf)<br/>
+    *Geoderma* (2026) <br/>
+    **E Potash**, A von Haden, L Bergschneider, MS Douglass, L Ferrari, RI Lopez, AR Martinez, AJ Margenot
+</p>
+
+<p class="paper" markdown="1">
     [Think outside the plots: Perimeter measurements and spatial modeling mitigate confounding in a 145-year experiment]({{site.baseurl}}/assets/pdf/morrow.pdf)<br/>
     *Agricultural & Environmental Letters* (2025) <br/>
     **E Potash**, Y Nakayama, M Douglass, G Gonzalez, A Margenot
