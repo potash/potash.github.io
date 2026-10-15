@@ -5,6 +5,14 @@ weight: 2
 ---
 ## Environmental Monitoring
 <p class="paper" markdown="1">
+    [Transfer and Uncertainty for Soil Spectroscopy: A Parsimonious Approach Using Bayesian Mixed Models and Soil Surveys]({{site.baseurl}}/assets/pdf/spectroscopy.pdf)<br/>
+    **E Potash**, C Partida, J Safanelli, E Forbes, A Polussa, T Runge, M Sheffer, J Sanderman<br/>
+    *European Journal of Soil Science*, 2026.
+    ([github](https://github.com/potash/spectroscopy-lmm/))
+</p>
+
+
+<p class="paper" markdown="1">
     [Empirical evaluation and recommendations for equivalent soil mass adjustment of soil organic carbon stocks]({{site.baseurl}}/assets/pdf/esm.pdf)<br/>
     **E Potash**, A von Haden, L Bergschneider, MS Douglass, L Ferrari, RI Lopez, AR Martinez, AJ Margenot<br/>
     *Geoderma*, 2026.
